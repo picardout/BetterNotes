@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		88EF59342043884A004F0BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF59332043884A004F0BC1 /* AppDelegate.swift */; };
-		88EF59362043884A004F0BC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF59352043884A004F0BC1 /* ViewController.swift */; };
+		88EF59362043884A004F0BC1 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF59352043884A004F0BC1 /* NotesViewController.swift */; };
 		88EF59392043884A004F0BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EF59372043884A004F0BC1 /* Main.storyboard */; };
 		88EF593C2043884A004F0BC1 /* BetterNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88EF593A2043884A004F0BC1 /* BetterNotes.xcdatamodeld */; };
 		88EF593E2043884A004F0BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EF593D2043884A004F0BC1 /* Assets.xcassets */; };
 		88EF59412043884A004F0BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EF593F2043884A004F0BC1 /* LaunchScreen.storyboard */; };
+		88EF594920438A29004F0BC1 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EF594820438A29004F0BC1 /* SummaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88EF59302043884A004F0BC1 /* BetterNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EF59332043884A004F0BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88EF59352043884A004F0BC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88EF59352043884A004F0BC1 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		88EF59382043884A004F0BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88EF593B2043884A004F0BC1 /* BetterNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BetterNotes.xcdatamodel; sourceTree = "<group>"; };
 		88EF593D2043884A004F0BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88EF59402043884A004F0BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88EF59422043884A004F0BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EF594820438A29004F0BC1 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				88EF59332043884A004F0BC1 /* AppDelegate.swift */,
-				88EF59352043884A004F0BC1 /* ViewController.swift */,
+				88EF594820438A29004F0BC1 /* SummaryViewController.swift */,
+				88EF59352043884A004F0BC1 /* NotesViewController.swift */,
 				88EF59372043884A004F0BC1 /* Main.storyboard */,
 				88EF593D2043884A004F0BC1 /* Assets.xcassets */,
 				88EF593F2043884A004F0BC1 /* LaunchScreen.storyboard */,
@@ -140,8 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				88EF593C2043884A004F0BC1 /* BetterNotes.xcdatamodeld in Sources */,
-				88EF59362043884A004F0BC1 /* ViewController.swift in Sources */,
+				88EF59362043884A004F0BC1 /* NotesViewController.swift in Sources */,
 				88EF59342043884A004F0BC1 /* AppDelegate.swift in Sources */,
+				88EF594920438A29004F0BC1 /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
